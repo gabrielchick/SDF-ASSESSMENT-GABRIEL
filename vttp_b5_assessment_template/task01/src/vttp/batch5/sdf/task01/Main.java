@@ -74,16 +74,18 @@ public class Main {
 			registered = Integer.parseInt(row[9]);
 			
 
-            // int category = row[1];
-            // double rating = parseRating(row[2], appName);
+          total = casual + registered
 
-          
+
         return BikeEntries;
     }
 
    
 	//calculate total bikers by adding casual and registered
 	//check how which one is the highest
+
+	//I WOULD MAKE A HASHMAP THAT MAPS 1,2,3,4 TO THE RELEVANT WEATHER SPECIFIED IN THE DATASET CHARACTERISTICS
+	//SAME FOR 0,1 FOR HOLIDAY/NOT HOLIDAY
 
     private static void updateBikeEntries
     }
